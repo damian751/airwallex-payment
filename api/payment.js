@@ -4,8 +4,8 @@ export default async function handler(req, res) {
     const loginRes = await fetch('https://api.airwallex.com/api/v1/authentication/login', {
       method: 'POST',
       headers: {
-        'x-client-id': 'bSIAR5m4TYWRM0tj94OrzA',
-        'x-api-key': '90a226aa36fd04fdade2e1d47c1c05fa3ebd1810ca6238888f4bb77f4cc1e05dafb7fda509fb17b544fd7c1cb7a7cdfa',
+        'x-client-id': 'y9zgBBcFSYSnbnkHunEoqA',
+        'x-api-key': '658e91de88c8e338355bca8a97bc8debafba4387ba6cf92789834fd13414645620d78f4ca267592fdf6a5b916d5cf82b',
         'Content-Type': 'application/json'
       }
     });
